@@ -7,6 +7,7 @@ double p(const double x)
     return 1 + x * x / 2 - x * x * x * x / 4;
 }
 
+// Обчислює значення c за заданим параметром s.
 double calculateC(const double s)
 {
     double ps = p(s);
